@@ -1,5 +1,5 @@
-FROM circleci/python:3.6.1
+FROM circleci/python:3.7.3
 
 RUN sudo apt update
-RUN sudo apt install libgdal-dev
+RUN sudo apt install gdal-bin python3-gdal
 
